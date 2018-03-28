@@ -19,7 +19,7 @@ public class Int {
         driver.get("http://argos.co.uk");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-
+     //dharti bhatt
         WebElement technology = driver.findElement(By.xpath("//a[@class='font-condensed uppercase meganav__level-1-title']"));
         technology.click();
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
